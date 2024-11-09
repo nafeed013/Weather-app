@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather - Today</title>
+    <link rel="stylesheet" href="weather.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="search-section">
+            <input type="text" placeholder="Search" class="search-input">
+            <div class="icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+
+        <div class="hero-section">
+            <div class="temperature">
+                <h1 class="temperature-display">22*c</h1>
+                <h3>New York</h3>
+            </div>
+        </div>
+
+        <div class="footer-section">
+            <div class="humidity-section">
+                <i class="fa-solid fa-water"></i>
+                <div class="humidity">
+                    <p class="percent"></p>
+                    <p class="text">Humidity</p>
+                </div>
+            </div>
+            <div class="wind-section">
+                <i class="fa-solid fa-wind"></i>
+                <div class="wind">
+                    <p class="speed"></p>
+                    <p class="text">Wind speed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="weather.js"></script>
+</body>
+
+</html>
