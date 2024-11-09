@@ -30,4 +30,4 @@ Add error handling for incorrect city names or no response from the API.
 Improve the design by adding animations or transitions.
 Display a weather icon or background image based on the weather conditions.
 Add more detailed information like a 7-day forecast, sunrise/sunset times, etc.
-This basic weather app can be expanded in many ways, and it's a great starting point for learning how to interact with APIs and work with HTML, CSS, and JavaScript!
+This basic weather app can be expanded in many ways, and it's a great starting point for learning how to interact with APIs and work with HTML, CSS, and JavaScript! 
